@@ -2,6 +2,7 @@ package example;
 
 public class Main {
     public static void main(String[] args) {
+        System.out.println("Hello, World!");
         Calculator calculator = new Calculator();
         System.out.println("Test");
         System.out.println("add = " + calculator.add(3, 5));
